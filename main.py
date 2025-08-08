@@ -11,7 +11,8 @@ from langchain_core.documents import Document
 
 
 API_URL = "https://router.huggingface.co/featherless-ai/v1/completions"
-headers = {"Authorization": "Bearer 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"}
+# here use haggingface api key
+headers = {"Authorization": "Bearer use_your_key"}
 
 embedding_model = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2",
